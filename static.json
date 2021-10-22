@@ -1,8 +1,19 @@
 { 
-  "headers": {
-    "/*":{
-      "X-Author":"itmo308555",
-      "Access-Control-Allow-Origin":"*"
+   "headers": {
+    "/**": {
+      "Content-Type": "text/html; charset=utf-8",
+      "X-Author": "itmo308555"
+    },
+    "/login/": {
+      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "text/plain; charset=utf-8",
+      "X-Author": "itmo308555"
+    },
+    "/sample/": {
+      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "text/plain; charset=utf-8",
+      "X-Author": "itmo308555"
     }
-  }
+  },
+  "https_only": true
 }
